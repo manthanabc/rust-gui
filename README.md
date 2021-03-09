@@ -25,9 +25,9 @@
     
    and add the following dependecy
     
-    ```
-    sdl2 = "0.30.0"
-    ```
+   ```
+   sdl2 = "0.30.0"
+   ```
     
    and thas it .
     
