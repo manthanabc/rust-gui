@@ -1,6 +1,6 @@
 use sdl2::render::Canvas;
 use sdl2::video::Window;
-use sdl2::pixels::Color;
+pub use sdl2::pixels::Color;
 use sdl2::rect::Rect;
 use sdl2::rect::Point;
 
@@ -11,7 +11,6 @@ pub struct Draw {
 	// window:sdl2::video::Window,
 	canvas: sdl2::render::Canvas<Window>
 }
-
 
 impl Draw {
 
@@ -41,8 +40,8 @@ impl Draw {
 		self.canvas.present();
 	}
 
-	pub fn stroke(&mut self, col: i32) {
-		self.canvas.set_draw_color(Color::RGB(255, 210, 0));
+	pub fn stroke(&mut self, col: Color) {
+		self.canvas.set_draw_color(col); //Color::RGB(255, 210, 0));
 	}
 
 	pub fn line(&mut self,x1: i32, y1: i32, x2: i32, y2: i32) {
