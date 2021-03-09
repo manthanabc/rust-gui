@@ -21,13 +21,13 @@
   
   ## getting started
   
-    just copy past the lib file in your project src directory
+   just copy past the lib file in your project src directory
     
-    and add the following dependecy
+   and add the following dependecy
     
     ```
     sdl2 = "0.30.0"
     ```
     
-    and thas it .
+   and thas it .
     
