@@ -30,4 +30,6 @@
    ```
     
    and thas it .
+
+ ## this project is dead as sdl sucks and i will soon start working on another verstion using gfx will be a lot better
     
